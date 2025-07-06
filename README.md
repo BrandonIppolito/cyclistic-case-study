@@ -50,6 +50,22 @@ This project analyzes 12 months of Cyclistic bike-share data to uncover differen
 
 ---
 
+## 💻 SQL Code
+
+The data was cleaned and transformed in BigQuery using SQL.  
+Key steps included:
+
+- Combining 12 months of trip data into one table
+- Removing invalid or incomplete entries
+- Calculating ride duration and extracting day of week
+- Aggregating results by user type and time period
+
+📂 View SQL used in this project:
+
+- [`cleaning_queries.sql`](./sql/cleaning_queries.sql) – Combine & clean data
+- [`exploratory_queries.sql`](./sql/exploratory_queries.sql) – Initial exploration
+- [`summary_queries.sql`](./sql/summary_queries.sql) – Final dashboard aggregations
+
 ## 📈 Tableau Dashboard
 
 👉 [View the Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/brandon.ippolito/viz/CyclisticBikeUsageAnalysisMembervs_CasualRiders12-MonthOverview/Dashboard)
